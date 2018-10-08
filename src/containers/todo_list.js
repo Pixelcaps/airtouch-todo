@@ -16,9 +16,7 @@ class TodoList extends Component {
         this.props.getTodos();
     }
 
-    componentDidUpdate() {
-        this.props.getTodos();
-    }
+    
     onDelete(el) {
         this.props.deleteTodo(el);
     }
